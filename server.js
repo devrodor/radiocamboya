@@ -1,5 +1,5 @@
-const next = import('next');
-const http = import('http');
+const next = import('next'); // this must change to require on production
+const http = import('http'); // this must change to require on production
 
 process.env.NODE_ENV = process.env.NODE_ENV || 'production';
 
